@@ -115,7 +115,7 @@ def get_base64_of_bin_file(bin_file):
     return base64.b64encode(data).decode()
 
 # background image
-background_image_path = 'Designer (35).png'
+background_image_path = 'Designer (37).png'
 bg_img_base64 = get_base64_of_bin_file(background_image_path)
 
 page_bg_img = f"""
